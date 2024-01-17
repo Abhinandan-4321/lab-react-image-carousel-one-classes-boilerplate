@@ -1,1 +1,21 @@
 /* write your carousel css in this file */
+.image-size{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50vw;
+    width: 30vw;
+    gap: 30px;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+h1{
+    background-color: rgba(240, 248, 255, 0.536);
+    border-radius: 0.8em;
+    padding: 10px;
+}
+
+.left, .right{
+    color: white;
+}
